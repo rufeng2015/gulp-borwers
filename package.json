@@ -1,0 +1,19 @@
+{
+  "name": "Browers-css-compatible",
+  "version": "1.1.1",
+  "description": "gulp自动刷新+浏览器兼容",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rufeng",
+  "license": "ISC"
+}
