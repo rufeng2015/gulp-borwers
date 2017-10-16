@@ -16,7 +16,7 @@ gulp.task('autoprefixer', ['clean'], function() {
             cascade: true
         }))
         .pipe(gulp.dest('dist/'));
-    gulp.src(['*/**/*.html', '*.html', 'js/*.js', 'images/*.*', '!node_modules/**/*.*'], { base: './' }).pipe(gulp.dest('dist/'));
+    gulp.src(['*/**/*.html', '*.html', 'js/**/*.js', 'images/*/*.*', '!node_modules/**/*.*'], { base: './' }).pipe(gulp.dest('dist/'));
 });
 gulp.task('clean', function() {
     return gulp.src('dist', { read: true })
